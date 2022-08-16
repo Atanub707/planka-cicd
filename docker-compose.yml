@@ -22,7 +22,7 @@ services:
       - BASE_URL=http://13.232.42.175:3000
       - TRUST_PROXY=0
       - DATABASE_URL=postgresql://postgres@postgres/planka
-      - SECRET_KEY=notsecretkey
+      - SECRET_KEY=90526c323152e20329d0c11269e9bc01ccaa642b7faac2e730dcdb14cad6e959eb539da0ae9e50f37a9235a71433f2ce4e6e625764384d461b69bb06b6303f89
     depends_on:
       - postgres
 
